@@ -34,7 +34,7 @@ interface PageParams {
 
 export function generateStaticParams() {
   const pool = siteData.editorial.authorPool || [];
-  return pool.map((p) => ({ slug: p.slug }));
+  return pool.map((p: { slug: string }) => ({ slug: p.slug }));
 }
 
 function findAuthor(slug: string) {
