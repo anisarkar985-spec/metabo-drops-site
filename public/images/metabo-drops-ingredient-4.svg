@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Chromium Picolinate">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#g3)" rx="32"/>
+  <g opacity="0.18" transform="translate(240,180)">
+    <path d="M0 -80 C 60 -60 80 0 0 80 C -80 0 -60 -60 0 -80 Z" fill="#4f46e5"/>
+  </g>
+  <text x="240" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="180" font-weight="700" fill="#4f46e5" dominant-baseline="middle">C</text>
+  <text x="240" y="400" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600" fill="#4f46e5" opacity="0.85">Chromium Picolina…</text>
+</svg>
