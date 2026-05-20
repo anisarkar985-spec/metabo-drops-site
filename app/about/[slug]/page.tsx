@@ -38,7 +38,7 @@ export function generateStaticParams() {
 }
 
 function findAuthor(slug: string) {
-  return (siteData.editorial.authorPool || []).find((a) => a.slug === slug);
+  return (siteData.editorial.authorPool || []).find((a: { slug: string }) => a.slug === slug);
 }
 
 export function generateMetadata({ params }: PageParams): Metadata {
